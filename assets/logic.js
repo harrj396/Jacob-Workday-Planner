@@ -2,16 +2,15 @@
 var container = document.querySelector('.container');
 
 // var for time during work day
-var eightAM = $('#8');
-var nineAM = $('#9');
-var tenAM = $('#10');
-var elevenAM = $('#11');
-var twelvePM = $('#12');
-var onePM = $('#1');
-var twoPM = $('#2');
-var threePM = $('#3');
-var fourPM = $('#4');
-var fivePM = $('#5')
+var nineAMJS = $('#nineAM');
+var tenAMJS = $('#tenAM');
+var elevenAMJS = $('#elevenAM');
+var twelvePMJS = $('#twelvePM');
+var onePMJS = $('#onePM');
+var twoPMJS = $('#twoPM');
+var threePMJS = $('#threePM');
+var fourPMJS = $('#fourPM');
+var fivePMJS = $('#fivePM')
 
 // shows current time on screen
 var date = moment();
